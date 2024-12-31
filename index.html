@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Web Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+	<script src="./script.js"></script>
+	<link rel="icon" type="image/jpg" href="./imgs/icons8-briefcase-48.png" >
+</head>
+<body>
+	<header>
+		<a href="#" class="logo-holder">
+			<div class="logo">R</div>
+			<div class="logo-text">Portfolio Website</div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="mailto:raed22joumaa@gmail.com" class="button" id="contact-button">Contact Me</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+				</svg>
+			</a>
+		</nav>
+	</header>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <h1>
+                    <small>Hi I'm</small>
+                    Raed Joumaa
+                </h1>
+                <p>
+                    I'm a Full-Stack Developer in Egypt with HTML, CSS, JavaScript, Angular and React
+                     <span>
+                        I'm interested in AI topics which is why
+                         I also add things like Chatbot into
+                          My projects these days.
+                     </span>
+                </p>
+                <div class="call-to-action">
+                    <a href="./Raed`s CV.pdf" class="button black">
+                        View Resume
+                    </a>
+                    <a href="mailto:raed22joumaa@gmail.com" class="button black">
+                        Contact Me
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Raed108">
+                        <img src="./imgs/github.png" 
+                        alt="GitHub" width="48px">
+                    </a>
+                    <a href="https://www.linkedin.com/in/raed-joumaa-aa4b1b249/">
+                        <img src="./imgs/linkedin.png" 
+                        alt="Linkedin" width="48px">
+                    </a>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img id="profile-image" src="./imgs/hero.png" 
+                title="Raed Joumaa">
+            </div>
+        </section>
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./imgs/html.png" title="HTML" width="128">
+                    <img src="./imgs/css.png" title="CSS" width="128">
+                    <img src="./imgs/javascript.png" title="JavaScript" width="128">
+                    <img src="./imgs/angular.png" title="Angular" width="128">
+                    <img src="./imgs/git.png" title="Git" width="128">
+                    <img src="./imgs/typescript.png" title="TavaScript" width="128">
+                    <img src="./imgs/react.png" title="React" width="128">
+                    <img src="./imgs/nextjs.png" title="NextJS" width="128">
+                    <img src="./imgs/Microsoft SQL Server.png" title="Microsoft SQL Server" width="128">
+                    <img src="./imgs/mySQL.png" title="MySQL Server" width="128">
+                    <img src="./imgs/vscode.png" title="vscode" width="128">
+                    <img src="./imgs/python.png" title="Python" width="128">
+                    <img src="./imgs/java.png" title="Java" width="128">
+                    <img src="./imgs/MongoDB.png" title="MongoDB" width="128">
+                    <img src="./imgs/Node.js.png" title="Node.Js" width="128">
+                    <img src="./imgs/express-js-logo.png" title="Express.Js" width="128">
+                    <img src="./imgs/PostgresSQL.png" title="PostgresSQL" width="128">
+                    <img src="./imgs/html.png" title="HTML" width="128">
+                    <img src="./imgs/css.png" title="CSS" width="128">
+                    <img src="./imgs/javascript.png" title="JavaScript" width="128">
+                    <img src="./imgs/angular.png" title="Angular" width="128">
+                    <img src="./imgs/git.png" title="Git" width="128">
+                    <img src="./imgs/typescript.png" title="TavaScript" width="128">
+                    <img src="./imgs/react.png" title="React" width="128">
+                    <img src="./imgs/nextjs.png" title="NextJS" width="128">
+                    <img src="./imgs/Microsoft SQL Server.png" title="Microsoft SQL Server" width="128">
+                    <img src="./imgs/mySQL.png" title="MySQL Server" width="128">
+                    <img src="./imgs/vscode.png" title="vscode" width="128">
+                    <img src="./imgs/python.png" title="Python" width="128">
+                    <img src="./imgs/java.png" title="Java" width="128">
+                    <img src="./imgs/MongoDB.png" title="MongoDB" width="128">
+                    <img src="./imgs/Node.js.png" title="Node.Js" width="128">
+                    <img src="./imgs/express-js-logo.png" title="Express.Js" width="128">
+                    <img src="./imgs/PostgresSQL.png" title="PostgresSQL" width="128">
+                </div>
+            </div>
+        </section>
+        <section class="skills container" id="skills">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Angular</li>
+                        <li>TypeScript</li>
+                    </ul>
+                    
+                    <h3 style="margin-top: 70px;">Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>Asp.net</li>
+                        <li>Java</li>
+                        <li>PHP</li>
+                        <li>C#</li>     
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>
+                        Raed Joumaa is a dedicated and motivated software engineering 
+                        student with a strong passion for technology and programming. 
+                        He has experience in various programming languages, including Java, Python, JavaScript and many more languages.
+                        Raed is enthusiastic about exploring new technologies and frameworks, always
+                        eager to learn and enhance his skills. His work on diverse projects
+                        demonstrates his ability to solve complex problems and his creativity
+                        in developing innovative software solutions.
+                    </p>
+                    <p>
+                        With a keen interest in building applications that improve user experience,
+                        Raed enjoys turning ideas into functional software. He is a proactive team
+                        player, known for his excellent communication skills and collaborative approach.
+                        Raed's goal is to contribute to impactful projects and continue growing 
+                        as a software engineer, making a positive difference in the field.
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="work-experiance container">
+            <h2>
+                <small>Recent</small>
+                Work Experiance
+            </h2>
+            <div class="jobs">
+                <article>
+                    <figure>
+                        <img src="./imgs/codeAlpha.jpg" 
+                        alt="CodeAlpha" width="100%">
+                        <figcaption>
+                            Code Alpha    
+                        </figcaption>
+                    </figure>
+                    <h3>Code Alpha</h3>
+                    <div>2022-2023</div>
+                    <p>I worked their as a Java Developer.</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="./imgs/GUC-Campus.jpeg" 
+                        alt="CodeAlpha" width="100%">
+                        <figcaption>
+                            GUC    
+                        </figcaption>
+                    </figure>
+                    <h3>GUC</h3>
+                    <div>2022-2024</div>
+                    <p>Junior Teaching Assistant at German 
+                        University In Cairo.</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="./imgs/workplace-3.jpg" 
+                        alt="CodeAlpha" width="100%">
+                        <figcaption>
+                            Study Vista    
+                        </figcaption>
+                    </figure>
+                    <h3>Study Vista</h3>
+                    <div>2023-2024</div>
+                    <p>I worked their as a presenter.</p>
+                </article>
+            </div>
+        </section>
+        <section class="bento container" id="projects">
+            <h2>
+                <small>
+                    Previous
+                </small>
+                Completed Projects
+            </h2>
+            <div class="bento-grid">
+                <a href="#" class="bento-item">
+                    <img src="./imgs/bento-1.jpg" alt=""
+                    width="100%">
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/bento-2.jpg" alt="" width="100%">
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/bento-3.jpg" alt="" width="100%">
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/bento-4.jpg" alt="" width="100%">
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/bento-5.jpg" alt="" width="100%">
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/bento-7.jpg" alt="" width="100%">
+                </a>
+            </div>
+        </section>
+        <section class="chatbot container">
+            <h2>
+                <small>
+                    Tallk To Me
+                </small>
+                Chatbot
+            </h2>
+            <div class="chatbot-blue">
+                <div class="chat-info">
+                    <h3>AI Chatbot</h3>
+                    <p>I've put together a chatbot here which knows 
+                    all my skills, work experience and has a copy 
+                    of my CV/Resume. You can use it to ask questions 
+                    about me to get a better idea of who I am and what
+                     I've done</p>
+                    <p>You can also download my resume here if you
+                    want to take a look at it.  I'm currently looking 
+                    for new opportunities so if you have a project you 
+                    think I'd be a good fit for, please get in touch!</p>
+                    <a href="./Raed`s CV.pdf" download class="button black">Download Resume</a>
+                </div>
+                <div class="chat-box" id="chat-box">
+                    <div class="scroll-area">
+                        <ul id="chat-log">
+                            <li>
+                                <span class="avatar bot">
+                                    AI
+                                </span>
+                                <div class="message">
+                                    Hi, I'm a friendly chatbot that 
+                                    lets you interactive with this 
+                                    portfolio and CV. How can I help?
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chat-message" id="chat-message">
+                        <div style="height: 150px;">
+                            <button class="start-button" onclick="StartChat()" id="start-button">Start Chat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
