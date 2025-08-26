@@ -26,9 +26,11 @@ const StartChat = ()=>{
 		
 		["Education", "Raed's education at the German University in Cairo has equipped him with a robust foundation in computer science and engineering principles. His major in Media Engineering and Technology has provided him with both theoretical knowledge and practical skills in software development, programming languages, and problem-solving. Courses focused on advanced topics in computer science have prepared Raed to tackle complex technical issues and innovate within the software engineering field."],
 		
+		["Bachelor Thesis", "Raed received an A+ (100%) on his thesis: 'Integrating Logical Constraints in Multimodal AI Assistant Outputs', combining AI, Prolog, and multimodal validation."],
+		
 		["Experience", `Since September 2022, Raed has been a Junior Computer Science Teaching Assistant at the German University in Cairo (GUC), tutoring students and supporting the learning process.
-						From September 2023 to May 2024, he worked as a Java Developer at Code Alpha, creating user-friendly programs and systems.
-						Currently, Raed is a Software Developer at Study Vista, where he develops and deploys functional websites, enhancing user experience and streamlining communication workflows.`],
+						From September 2023 to Jan 2024, he worked as a Java Developer at Code Alpha, creating user-friendly programs and systems.
+						Currently, Raed is a Software Developer at The Study Vista, where he develops and deploys functional websites, enhancing user experience and streamlining communication workflows.`],
 		
 		["Internship", "In 2024, Raed took on a Java Developer internship at Code Alpha, where he was involved in various stages of software development, including coding, testing, and debugging Java applications. This internship provided Raed with hands-on experience in developing and maintaining software applications, enhancing his Java programming skills and understanding of the software development life cycle. He also learned about collaborating effectively within a team and adhering to industry best practices in software development."],
 		
@@ -153,5 +155,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	scrollToBottom();
   });
   
+
 
 
